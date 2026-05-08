@@ -155,6 +155,7 @@ Only include sections the user selected:
 
 - Session: `from snowflake.snowpark.context import get_active_session`
 - APIs: `snowflake-ml-python` (Registry, FeatureStore, Dataset, Experiment, ML Jobs)
+- Add names to cells in notebooks
 - SQL cells: use `"language": "sql"` in cell metadata
 - Always include `task` parameter in `log_model()` (required for Model Monitor)
 - Always include `sample_input_data` (required for schema inference)
@@ -162,7 +163,7 @@ Only include sections the user selected:
 - Use `SYSADMIN` role; note where elevated privileges needed (SPCS, EAI)
 - Synthetic data: 50K rows default, ~3% minority class for classification
 - Adapt synthetic schema to use case (transaction data for fraud, customer data for churn, product data for demand)
-
+- Always validate that all syntax, variables and order in notebooks is correct.
 ### Demo Best Practices
 
 - Keep total execution under 5 minutes (small data unless distributed selected)
