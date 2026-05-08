@@ -168,6 +168,7 @@ These fields will appear in the assessment deck header and are used for internal
 - Badges: `badge-green` (Low), `badge-orange` (Med), `badge-blue` (TBD/Optional)
 - Cards with hover elevation, tables with row hover highlights
 - Mermaid diagrams with dark theme variables
+- Always generate mermaid diagrams; do not create ASCII diagrams.
 - Font: system stack; Code: JetBrains Mono
 
 ### Output File
